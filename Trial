@@ -1,1 +1,97 @@
-Creating a new file
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    section {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+    section h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#design">Design</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>
+        Welcome to my portfolio! With over [X] years of experience in the industry, I have honed my skills in web development, project management, and innovative problem-solving. My journey has been driven by a passion for creating engaging digital experiences and collaborating with diverse teams to bring ideas to life.
+      </p>
+    </section>
+
+    <section id="design">
+      <h2>Design</h2>
+      <p>
+        Design is at the heart of my work. I believe in the power of clean, user-centric design that not only looks beautiful but also delivers functionality. My portfolio showcases projects where creativity meets usability, blending aesthetic appeal with practical user experience principles.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        If you'd like to get in touch or learn more about my work, please email me at <a href="mailto:your.email@example.com">your.email@example.com</a>.
+      </p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
